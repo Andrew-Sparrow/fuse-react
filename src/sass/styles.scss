@@ -1,7 +1,6 @@
-$primary-color: white;
-$bg: darkblue;
-
-h1 {
-  color: $primary-color;
-  background-color: $bg;
-}
+@import 'variables';
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/cards';
+@import 'blocks/card';
+@import 'blocks/seemore';
