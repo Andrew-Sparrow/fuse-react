@@ -4,6 +4,5 @@ import App from "./App";
 import "./css/styles.css";
 import "./sass/styles.scss";
 
-
-var mountNode = document.getElementById("app");
-ReactDOM.render(<App name="Jane" />, mountNode);
+const mountNode = document.querySelector("bg-home");
+ReactDOM.render(<App />, mountNode);
